@@ -1,4 +1,5 @@
 ﻿Public Class Form1
+    ' Adding a comment for simple changes #2
 
     ' Declarations
 
@@ -26,7 +27,7 @@
             Button17.Visible = True
         Else
             ' Clipboard has neither Text nor Image
-            Label4.Text = " ! Clipboard contents too complex ! "
+            Label4.Text = " ! Clipboard contents too complex !! "
             Label4.Visible = True
         End If
     End Sub
@@ -433,11 +434,11 @@
         TextBox6.Text = "NO"
         FormatCounter = "CF_TEXT"
 
-        
 
-            If My.Computer.Clipboard.ContainsData(FormatCounter) Then
-                TextBox6.Text = FormatCounter
-            End If
+
+        If My.Computer.Clipboard.ContainsData(FormatCounter) Then
+            TextBox6.Text = FormatCounter
+        End If
 
 
 
