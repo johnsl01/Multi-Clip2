@@ -21,4 +21,4 @@ A useful enhancement would be to save and restore sets of content - would be han
 commonly used strings for repetitave actions, for example.
 
 And a further more complex enhancement would be to store different clipboard content types so Word, Excel 
-or other complex content can be pasted in without loosing the formatting and other non-text content.
+or other complex content can be pasted in without losing the formatting and other non-text content.
